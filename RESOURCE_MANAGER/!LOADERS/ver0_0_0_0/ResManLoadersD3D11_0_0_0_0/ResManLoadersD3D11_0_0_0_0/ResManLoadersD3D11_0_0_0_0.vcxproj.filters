@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{68917f1c-ca36-4a35-bbe4-7356f4c055a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{ff4abc77-c0d4-4a5e-bb20-7609c82f4301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{85a01785-b759-48dc-ab99-3c94385f513d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{f15607cf-e575-4ddb-bf8b-bd9b25f830c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{2d93d26c-5fdc-4af8-a868-37bc34ccb031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11">
+      <UniqueIdentifier>{31d11aa9-1e70-4ce4-8433-cf14092c30bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\Groups">
+      <UniqueIdentifier>{53cc9ca9-09a9-49cc-9950-29c29fe53b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\ResourceTypes">
+      <UniqueIdentifier>{a6f9e1d2-8662-4d78-89ca-48e3c3e6ebfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\Groups\Deploy">
+      <UniqueIdentifier>{9e23fc3a-b6dc-4d63-96fe-b1b0493ae638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11">
+      <UniqueIdentifier>{9be563ac-a533-4e45-a064-28b54b6cf8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11\Groups">
+      <UniqueIdentifier>{9416fef1-844b-4411-8f6a-e6cf987e0b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11\Groups\Deploy">
+      <UniqueIdentifier>{a5d30f27-5086-475d-9192-165a1ea82832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11\ResourceTypes">
+      <UniqueIdentifier>{d724d345-7861-435b-9457-a8f60940fb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\Deployer">
+      <UniqueIdentifier>{208661bb-3c1b-440e-8984-0636cdc74fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11\Deployer">
+      <UniqueIdentifier>{bd826168-3f75-499d-a57d-83f577228086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\ResourceTypes\Deployer">
+      <UniqueIdentifier>{0480ae4e-d736-4d07-b54f-ac4909ac6b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ResManD3D11\ResourceTypes\Deployer">
+      <UniqueIdentifier>{4557272d-acc1-404c-8e78-81f8b98a9166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Special">
+      <UniqueIdentifier>{6a5a445d-4dc9-484c-bd7a-28c1b8ea55f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Special\Procedural">
+      <UniqueIdentifier>{5513c903-b9ea-4f35-abe6-3f892436ff9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Special">
+      <UniqueIdentifier>{d2a8e134-62bc-48fb-9f23-7921fd48b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Special\Procedural">
+      <UniqueIdentifier>{79ceaeb6-66f1-45fd-bf2d-79565cccc88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{924df181-e076-4413-9250-4de3bfb44322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{20809e6d-51fe-46de-b291-2342c3534153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models\Deployer">
+      <UniqueIdentifier>{b266d858-d784-4cc6-9ac8-2d2f6fc6eee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ResManD3D11\ExtraResourceTypes">
+      <UniqueIdentifier>{bc0809fe-e579-45c7-bbf9-d6cb9d4136c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H\D3D11InputLayoutResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManLoadersD3D11_System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11BufferResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11BlendStateResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\MASTER_ResManLoadersD3D11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11DepthStencilViewResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11ShaderPairResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\TextResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11DepthStencilStateResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11SamplerStateResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11ShaderResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11Texture2DResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\TextureFormat.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Test\TestLoader.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Test\TestLoaderFailable.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Groups\ResManD3D11_Group_BasicResources.h">
+      <Filter>Header Files\ResManD3D11\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Groups\ResManD3D11_Groups.h">
+      <Filter>Header Files\ResManD3D11\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\ResourceTypes\ResManD3D11_ResourceTypes.h">
+      <Filter>Header Files\ResManD3D11\ResourceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\ResManD3D11.h">
+      <Filter>Header Files\ResManD3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Groups\Deploy\ResManD3D11_BasicDeployer_Group_BasicResources.h">
+      <Filter>Header Files\ResManD3D11\Groups\Deploy</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Groups\Deploy\ResManD3D11_IDeployer_Group_BasicResources.h">
+      <Filter>Header Files\ResManD3D11\Groups\Deploy</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11RasterizerStateResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Deployer\ResManD3D11_BasicDeployer.h">
+      <Filter>Header Files\ResManD3D11\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\Deployer\ResManD3D11_IDeployer.h">
+      <Filter>Header Files\ResManD3D11\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\ResourceTypes\Deployer\ResManD3D11_Deployer_ResourceTypes.h">
+      <Filter>Header Files\ResManD3D11\ResourceTypes\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\ResourceTypes\Deployer\ResManD3D11_BasicDeployer_ResourceTypes.h">
+      <Filter>Header Files\ResManD3D11\ResourceTypes\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Special\Procedural\PerlinNoise.h">
+      <Filter>Header Files\Special\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\MaxModelLoaders.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\EditableModelLoaders.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\Max3DSLoaders.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11ShaderResourceView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11UnorderedAccessView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\Deployer\BasicDeployer_ModelResourceTypes.h">
+      <Filter>Header Files\Models\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\Deployer\IDeployer_ModelResourceTypes.h">
+      <Filter>Header Files\Models\Deployer</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManD3D11\ExtraResourceTypes\ResManD3D11_ExtraResourceTypes.h">
+      <Filter>Header Files\ResManD3D11\ExtraResourceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Models\Models_ResourceTypes.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Special\ResManD3D11_MASTER_Special.h">
+      <Filter>Header Files\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Special\Procedural\ResManD3D11_MASTER_SpecialProcedural.h">
+      <Filter>Header Files\Special\Procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11RenderTargetViewResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\D3D11CommandListResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPP\D3D11InputLayoutResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Base\D3D11ResourceLoaderBase.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11BufferResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11BlendStateResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11DepthStencilViewResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11ShaderPairResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\TextResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11DepthStencilStateResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11SamplerStateResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11ShaderResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11Texture2DResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Utils\TextureFormats.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Test\TestLoader.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Test\TestLoaderFailable.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\ResManD3D11.cpp">
+      <Filter>Source Files\ResManD3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\Groups\ResManD3D11_Group_BasicResources.cpp">
+      <Filter>Source Files\ResManD3D11\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\Groups\ResManD3D11_Groups.cpp">
+      <Filter>Source Files\ResManD3D11\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\Groups\Deploy\ResManD3D11_BasicDeployer_Group_BasicResources.cpp">
+      <Filter>Source Files\ResManD3D11\Groups\Deploy</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\ResourceTypes\ResManD3D11_ResourceTypes.cpp">
+      <Filter>Source Files\ResManD3D11\ResourceTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11RasterizerStateResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\Deployer\ResManD3D11_BasicDeployer.cpp">
+      <Filter>Source Files\ResManD3D11\Deployer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManD3D11\ResourceTypes\Deployer\ResManD3D11_ResourceTypes_Deployer.cpp">
+      <Filter>Source Files\ResManD3D11\ResourceTypes\Deployer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Special\Procedural\PerlinNoise.cpp">
+      <Filter>Source Files\Special\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Models\MaxModelLoaders.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Models\EditableModelLoaders.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Models\Max3DSLoaders.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11ShaderResourceView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11UnorderedAccessView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Special\Procedural\ResManD3D11_MASTER_SpecialProcedural.cpp">
+      <Filter>Source Files\Special\Procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11RenderTargetViewResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\D3D11CommandListResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

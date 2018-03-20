@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{e38ee463-e033-4860-8f0f-b647f028de91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{bb6ea5d0-a4fe-41cc-8e6c-b22a22120a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Override">
+      <UniqueIdentifier>{ebf95264-d951-42bb-bae5-29095b3e71f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{3fe98bf8-3883-458a-bc9a-d29ef60e621a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Subsystem">
+      <UniqueIdentifier>{ef7ea12a-010b-4c7a-8471-5607bb07e89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{85abe048-d5f8-4ecd-ba01-0d5caf4d3813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{ab01ef23-38a2-459e-82c4-58cb510be41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Subsystem">
+      <UniqueIdentifier>{79af197c-42d4-42ca-b474-64ed1456fb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{c25bbc22-6123-49f4-b5a9-70155220e281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{67938380-552b-4658-8227-4025407fee82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{355ad465-9f33-4f9b-8f29-a951103a9bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Override">
+      <UniqueIdentifier>{92040b20-2934-4b5e-ad65-26c285a5bdf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Test">
+      <UniqueIdentifier>{fd386f4c-5581-4325-8c3b-236a2d76d461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test">
+      <UniqueIdentifier>{14bb8de6-457d-4c0b-a968-5919549311a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H\Core\ResourceManagerException.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Core\ResourceManagerTypes.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\ISubresourceRole.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Override\IResourceTypeDescr.h">
+      <Filter>Header Files\Override</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\ResourceDependencyList.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\IResourceType.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\IManagedResource.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\LoadCommand.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\CommandState.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Override\IResourceLoader.h">
+      <Filter>Header Files\Override</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\IManagedGroup.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\IResourceManager.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Subsystem\IResourceManagerSubsystem.h">
+      <Filter>Header Files\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Core\MASTER_ResourceManager_Core.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\MASTER_ResourceManager_Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Override\MASTER_ResourceManager_Override.h">
+      <Filter>Header Files\Override</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\MASTER_ResourceManager_Interface.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Subsystem\MASTER_ResourceManager_Subsystem.h">
+      <Filter>Header Files\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Subsystem\ResourceManagerSubsystem_Params.h">
+      <Filter>Header Files\Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Interface\CombinableParams.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Core\ResourceManagerConstants.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\ResourceCombinableParamsCalculator.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Test\ResMan_TestLoop.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Test\ResMan_Test_MASTER.h">
+      <Filter>Header Files\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="H\Utils\AddressableSubresourceList.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPP\Core\ResourceManagerTypes.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Utils\SubresourceRoleSet.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Utils\ResourceDependencyList.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Subsystem\ResourceManagerSubsystem.cpp">
+      <Filter>Source Files\Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Interface\IManagedResource.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Override\ResourceLoader.cpp">
+      <Filter>Source Files\Override</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Interface\CombinableParams.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Utils\ResourceCombinableParamsCalculator.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Test\ResMan_TestLoop.cpp">
+      <Filter>Source Files\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Interface\IResourceManager.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Override\ResourceTypeDescr.cpp">
+      <Filter>Source Files\Override</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Interface\IManagedGroup.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Utils\AdressableSubresourceList.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

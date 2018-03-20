@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\impl">
+      <UniqueIdentifier>{384f6c9d-e7bf-461e-a254-de2db821b997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\impl">
+      <UniqueIdentifier>{431acb6d-7243-4610-9fb5-f08d3dd6fdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\impl\Loader">
+      <UniqueIdentifier>{f21eba66-5d49-4a39-b2ee-c06145d4bf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\impl\Loader">
+      <UniqueIdentifier>{c5c92733-be47-4c5c-8ae7-a337cb3b63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\impl\Fwd">
+      <UniqueIdentifier>{69093626-d12d-472c-b60c-7e83c4fb3d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\impl\Loader\Fwd">
+      <UniqueIdentifier>{338e5f49-e85e-4aee-9735-625f1ef2b729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\impl\Log">
+      <UniqueIdentifier>{5cb567a8-ea37-41ed-ad50-1adf6ec59cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\impl\Log">
+      <UniqueIdentifier>{346906a9-2015-497c-a159-df35634c011c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H\ResManQuick_ResourceManagerSubsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_ResourceType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_ManagedResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_ManagedGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceManager.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceManagerSubsystem.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_SubresourceRole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_SubresourceRole.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceContainer.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ManagedResource.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceContainer_Types.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ManagedGroup.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_RoledGroupResources.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_GroupResources.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceGroupCombiCont.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_GroupCont.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_System.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_SubresourceRole.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ResourceManager.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoaderMain.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingThread.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceRepository.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingLoop.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ManagedResource.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoaderCommandRecord.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ResourceManagerSubsystem.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadUpdate.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_LoadUpdate.h">
+      <Filter>Header Files\impl\Loader\Fwd</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_LoaderMain.h">
+      <Filter>Header Files\impl\Loader\Fwd</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadRequestParams.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_Loader_PerResourceData.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_Loader_PerResource_PerLoadingLoop.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_Fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_utils_LoadingLoopCommandQueues.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingLoopCommandQueues.h">
+      <Filter>Header Files\impl\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_Impl.h">
+      <Filter>Header Files\impl\Loader\Fwd</Filter>
+    </ClInclude>
+    <ClInclude Include="H\ResManQuick_SubsystemParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Fwd\ResManQuick_Fwd_ManagedResource.h">
+      <Filter>Header Files\impl\Fwd</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceGroupLink.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Log\ResManQuick_impl_Log.h">
+      <Filter>Header Files\impl\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\Fwd\ResManQuick_Fwd_ManagedGroup.h">
+      <Filter>Header Files\impl\Fwd</Filter>
+    </ClInclude>
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ManagedGroup.h">
+      <Filter>Header Files\impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPP\ResManQuick_ResourceManagerSubsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ManagedResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ManagedGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceManager_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQUick_ResourceManagerSubsystem_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_SubresourceRole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ManagedResource_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceContainer_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ManagedGroup_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_GroupResources_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceGroupCombiCont_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_GroupCont_impl.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoaderCommands.cpp">
+      <Filter>Source Files\impl\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoaderMain.cpp">
+      <Filter>Source Files\impl\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoadingThread.cpp">
+      <Filter>Source Files\impl\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\ResManQuick_ResourceRepository.cpp">
+      <Filter>Source Files\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoadingLoop.cpp">
+      <Filter>Source Files\impl\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_Loader_PerResourceData.cpp">
+      <Filter>Source Files\impl\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP\Log\ResManQuick_impl_Log.cpp">
+      <Filter>Source Files\impl\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

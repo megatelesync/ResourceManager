@@ -1,0 +1,1056 @@
+    --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Log initialized]]]
+            [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: LogSettings state]]]
+                    logName: Log_MainThread
+                        logFilename: C:/!DV/!LIB_PROJ/RESOURCE_MANAGER/!LOADERS/!TEST_DATA/mainThread_log.txt
+                        recordNestingLevelToEcho= 1; ident_numSpaces_perLevel= 1
+                        maxLinesPerPage= 200; maxCharsPerLine= 300
+                        MessageTypes: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: MsgType: Txt]]]
+                            bEchoLevel= 0; bAlwaysEcho= 0; bFilterOut= 0; verbosity=  ( actualVerbosity = Full; OVERRIDE_FOR_TYPE= {NULL}; OVERRIDE: {NULL})
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: MsgType: FATAL_ERROR(!)]]]
+                            bEchoLevel= 1; bAlwaysEcho= 1; bFilterOut= 0; verbosity=  ( actualVerbosity = Full; OVERRIDE_FOR_TYPE= {NULL}; OVERRIDE: {NULL})
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: MsgType: ERROR]]]
+                            bEchoLevel= 1; bAlwaysEcho= 1; bFilterOut= 0; verbosity=  ( actualVerbosity = Full; OVERRIDE_FOR_TYPE= {NULL}; OVERRIDE: {NULL})
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: MsgType: Status]]]
+                            bEchoLevel= 0; bAlwaysEcho= 0; bFilterOut= 0; verbosity=  ( actualVerbosity = Full; OVERRIDE_FOR_TYPE= {NULL}; OVERRIDE: {NULL})
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: MsgType: Info]]]
+                            bEchoLevel= 0; bAlwaysEcho= 0; bFilterOut= 0; verbosity=  ( actualVerbosity = Full; OVERRIDE_FOR_TYPE= {NULL}; OVERRIDE: {NULL})
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: LoggingDevice initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type: constructed]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role container: constructed]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: ResourceRepository: initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: ResourceManager: Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadLoop" : Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Subsystem initialized]]]
+            [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: Subsystem params]]]
+                    [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: Common subsystem params]]]
+                            IsSingleThreaded: 1
+                                ShouldDoAllCommandsSynchro: 0
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        Initial runtime parameters:
+                        IsDecisionMakingEnabled: 1
+                        IsFreezed: 0
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 0
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 0
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: Test
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: TEST_RESOURCE
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{0;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{0;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: Test
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: TEST_RESOURCE
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{0;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{0;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 1
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 1
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: Text
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: Text
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{1;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{1;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: Text
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: Text
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{1;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{1;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 2
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 2
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11BlendState
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: BlendState
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{2;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{2;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11BlendState
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: BlendState
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{2;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{2;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 3
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 4
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 3
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: ID3D11BufferResource
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: Buffer
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{3;std}{4;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{3;std}{4;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: ID3D11BufferResource
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: Buffer
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{3;std}{4;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{3;std}{4;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 5
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 4
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11DepthStencilState
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: DepthStencilState
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{5;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{5;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11DepthStencilState
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: DepthStencilState
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{5;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{5;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 6
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 5
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11DepthStencilView
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: DepthStencilView
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{6;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{6;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11DepthStencilView
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: DepthStencilView
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{6;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{6;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 7
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 6
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: ID3D11InputLayout
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: InputLayout
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{7;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{7;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: ID3D11InputLayout
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: InputLayout
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{7;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{7;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 8
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 7
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: ID3D11SamplerState
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: SamplerState
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{8;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{8;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: ID3D11SamplerState
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: SamplerState
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{8;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{8;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 9
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 10
+                Name: SourceData
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 8
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: Texture2D
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: Texture
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{9;std}{10;SourceData}}
+                                        rolesThatMustBeLoadedToCreateResource: {{9;std}{10;SourceData}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: Texture2D
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: Texture
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{9;std}{10;SourceData}}
+                                                rolesThatMustBeLoadedToCreateResource: {{9;std}{10;SourceData}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 11
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 9
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: ID3D11RasterizerState
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: RasterizerState
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{11;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{11;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: ID3D11RasterizerState
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: RasterizerState
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{11;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{11;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 12
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 10
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11ShaderView
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: ShaderView
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{12;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{12;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11ShaderView
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: ShaderView
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{12;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{12;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 13
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 11
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11UnorderedAccessView
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: UnorderedAccessView
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{13;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{13;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11UnorderedAccessView
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: UnorderedAccessView
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{13;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{13;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 14
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 12
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: D3D11RenderTargetView
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: RenderTargetView
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{14;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{14;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: D3D11RenderTargetView
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: RenderTargetView
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{14;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{14;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: subresource role: registered]]]
+            RoleIndex: 15
+                Name: std
+                BasePriority: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: Resource type registered]]]
+            Resource type:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceType]]]
+                    index: 13
+                        public params: 
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypePublicParams]]]
+                            Name: ID3D11CommandList
+                                DefaultURL: {EMPTY_STRING}
+                                SubdirectoryName: CommandList
+                                SubresourceRoles: 
+                                [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypeSubresourceRoleParams]]]
+                                    applicableSubresourceRoles: {{15;std}}
+                                        rolesThatMustBeLoadedToCreateResource: {{15;std}}
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceTypeDescr]]]
+                            [[[2017-12-21 16:10:58 ; lvl=4; logMsgType=Info:
+                                Caption: ResourceTypePublicParams]]]
+                                    Name: ID3D11CommandList
+                                        DefaultURL: {EMPTY_STRING}
+                                        SubdirectoryName: CommandList
+                                        SubresourceRoles: 
+                                        [[[2017-12-21 16:10:58 ; lvl=5; logMsgType=Info:
+                                        Caption: ResourceTypeSubresourceRoleParams]]]
+                                            applicableSubresourceRoles: {{15;std}}
+                                                rolesThatMustBeLoadedToCreateResource: {{15;std}}
+                                            [[[//LOG RECORD END: lvl = 5]]]]
+                                    [[[//LOG RECORD END: lvl = 4]]]]
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: ResourceRepository: resource registered]]]
+            AddressableSubresourceIndex: -1
+                Resource:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=FATAL_ERROR(!):
+                Caption: Resources]]]
+                    ResourceID=0
+                        ResourceName={UNNAMED}
+                        RealResource={nullptr}
+                        CombinableMode=Combine
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=FATAL_ERROR(!):
+                        Caption: Group]]]
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                Loader: 
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceLoader:]]]
+                    [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceLoaderParams]]]
+                            IsProcedural: 1
+                                CanBeThreaded: 0
+                                ShouldSearchURLsInDataDir: 1
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: LoadableMainSubresourceParams]]]
+                            SubresourceRole: 
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        bHasNoURL: 1
+                        WhatMustBeLoaded(nullptr) returned: {}
+                        HasCreationFailed: 0
+                        SubresourceRoles_FailedLoading: {}
+                        SubresourceRoles_FailedLoadingDependencies: {}
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: Addressable subresources]]]
+                            AddressableSubresourceRoles{}
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        OwnTemporaryContent loaded: {}
+                        loadingSubresourceRoles: {}
+                        loadedSubresourceDependencies: {}
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:58 ; lvl=1; logMsgType=Status:
+        Caption: ResourceRepository: resource registered]]]
+            AddressableSubresourceIndex: -1
+                Resource:
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=FATAL_ERROR(!):
+                Caption: Resources]]]
+                    ResourceID=1
+                        ResourceName={UNNAMED}
+                        RealResource={nullptr}
+                        CombinableMode=Combine
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=FATAL_ERROR(!):
+                        Caption: Group]]]
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                Loader: 
+                [[[2017-12-21 16:10:58 ; lvl=2; logMsgType=Info:
+                Caption: IResourceLoader:]]]
+                    [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: ResourceLoaderParams]]]
+                            IsProcedural: 1
+                                CanBeThreaded: 0
+                                ShouldSearchURLsInDataDir: 1
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:58 ; lvl=3; logMsgType=Info:
+                        Caption: LoadableMainSubresourceParams]]]
+                            SubresourceRole: 
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        bHasNoURL: 1
+                        WhatMustBeLoaded(nullptr) returned: {}
+                        HasCreationFailed: 0
+                        SubresourceRoles_FailedLoading: {}
+                        SubresourceRoles_FailedLoadingDependencies: {}
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=Info:
+                        Caption: Addressable subresources]]]
+                            AddressableSubresourceRoles{}
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                        OwnTemporaryContent loaded: {}
+                        loadingSubresourceRoles: {}
+                        loadedSubresourceDependencies: {}
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: ResourceManager: group registered]]]
+            Group:
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Status:
+                Caption: Group]]]
+                    IsOperable=1
+                        Slot ID=0
+                        NAME=Group
+                        IsActive = 1
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadLoop"; OtherLoadingLoop="mainThreadTemporary_LoadingLoop" : Notified: Before command enqueued in other loading loop]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoaderMain: EnqueueCommandForResource]]]
+            [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Request params]]]
+                    IsManual: 1
+                        Urgency: 4000000
+                        RolesToLoad: {{0;std}}
+                        OnlyDependencyList: 0
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=Info:
+                        Caption: Group]]]
+                            {ID=0;Name=Group;IsActive=1}
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=Status:
+                        Caption: Resource]]]
+                            ID=0Name={UNNAMED}
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Load command]]]
+                    IsRecursive: 1
+                        subresourcesToLoad: {{0;std}}
+                        dependencyListsToLoad: {{0;std}}
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                Resource: 
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Status:
+                Caption: Resource]]]
+                    ID=0Name={UNNAMED}
+                [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Begin Processing Command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Before executing command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Before return command result]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : End Processing Command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        Command result popped from loop: "mainThreadTemporary_LoadingLoop"
+        Initial request: 
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Request params]]]
+            IsManual: 1
+                Urgency: 4000000
+                RolesToLoad: {{0;std}}
+                OnlyDependencyList: 0
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Group]]]
+                    {ID=0;Name=Group;IsActive=1}
+                [[[//LOG RECORD END: lvl = 2]]]]
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Resource]]]
+                    ID=0Name={UNNAMED}
+                [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        ActualPriority: 0
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Load command]]]
+            IsRecursive: 1
+                subresourcesToLoad: {{0;std}}
+                dependencyListsToLoad: {{0;std}}
+                ShouldKeepLoadingLoop: 1
+                ShouldReturnResult: 1
+                IsCustomResourceLockingControl: 0
+                HasCreationFailed: 0
+                HasLoadFailed: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        Current resource: 
+    --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Resource]]]
+            ID=0Name={UNNAMED}
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadLoop"; OtherLoadingLoop="mainThreadTemporary_LoadingLoop" : Notified: Other loading loop processed command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Initialized]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadLoop"; OtherLoadingLoop="mainThreadTemporary_LoadingLoop" : Notified: Before command enqueued in other loading loop]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoaderMain: EnqueueCommandForResource]]]
+            [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Request params]]]
+                    IsManual: 1
+                        Urgency: 4000000
+                        RolesToLoad: {{0;std}}
+                        OnlyDependencyList: 0
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=Info:
+                        Caption: Group]]]
+                            {ID=0;Name=Group;IsActive=1}
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=Status:
+                        Caption: Resource]]]
+                            ID=1Name={UNNAMED}
+                        [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Load command]]]
+                    IsRecursive: 1
+                        subresourcesToLoad: {{0;std}}
+                        dependencyListsToLoad: {{0;std}}
+                    [[[//LOG RECORD END: lvl = 2]]]]
+                Resource: 
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Status:
+                Caption: Resource]]]
+                    ID=1Name={UNNAMED}
+                [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Begin Processing Command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Before executing command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : Before return command result]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadTemporary_LoadingLoop" : End Processing Command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        Command result popped from loop: "mainThreadTemporary_LoadingLoop"
+        Initial request: 
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Request params]]]
+            IsManual: 1
+                Urgency: 4000000
+                RolesToLoad: {{0;std}}
+                OnlyDependencyList: 0
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Group]]]
+                    {ID=0;Name=Group;IsActive=1}
+                [[[//LOG RECORD END: lvl = 2]]]]
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=Info:
+                Caption: Resource]]]
+                    ID=1Name={UNNAMED}
+                [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        ActualPriority: 0
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Load command]]]
+            IsRecursive: 1
+                subresourcesToLoad: {{0;std}}
+                dependencyListsToLoad: {{0;std}}
+                ShouldKeepLoadingLoop: 1
+                ShouldReturnResult: 1
+                IsCustomResourceLockingControl: 0
+                HasCreationFailed: 0
+                HasLoadFailed: 0
+            [[[//LOG RECORD END: lvl = 1]]]]
+        Current resource: 
+    --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Info:
+        Caption: Resource]]]
+            ID=1Name={UNNAMED}
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=Status:
+        Caption: LoadingLoop="mainThreadLoop"; OtherLoadingLoop="mainThreadTemporary_LoadingLoop" : Notified: Other loading loop processed command]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:10:59 ; lvl=1; logMsgType=ERROR:
+        Caption: ResourceManager: failed resource pushed]]]
+            Resource:
+                [[[2017-12-21 16:10:59 ; lvl=2; logMsgType=ERROR:
+                Caption: Resources]]]
+                    ResourceID=1
+                        ResourceName={UNNAMED}
+                        RealResource={nullptr}
+                        CombinableMode=Combine
+                        [[[2017-12-21 16:10:59 ; lvl=3; logMsgType=ERROR:
+                        Caption: Group]]]
+                            0 
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: ResourceManager: failed resource popped]]]
+            Resource:
+                [[[2017-12-21 16:11:00 ; lvl=2; logMsgType=Status:
+                Caption: Resources]]]
+                    ResourceID=1
+                        ResourceName={UNNAMED}
+                        RealResource={nullptr}
+                        CombinableMode=Combine
+                        [[[2017-12-21 16:11:00 ; lvl=3; logMsgType=Status:
+                        Caption: Group]]]
+                            0 
+                            [[[//LOG RECORD END: lvl = 3]]]]
+                    [[[//LOG RECORD END: lvl = 2]]]]
+            [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: Subsystem is returning from destructor]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: ResourceManager: returning from destructor]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: ResourceRepository: returning from destructor]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: subresource role container: returning from destructor]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: Resource type container: returing from destructor]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: LoggingDevice destroyed]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+        --------------------------------------------------------------------------------
+    [[[2017-12-21 16:11:00 ; lvl=1; logMsgType=Status:
+        Caption: Destroying log]]]
+        [[[//LOG RECORD END: lvl = 1]]]]
+    [[[END OF LOG]]]]

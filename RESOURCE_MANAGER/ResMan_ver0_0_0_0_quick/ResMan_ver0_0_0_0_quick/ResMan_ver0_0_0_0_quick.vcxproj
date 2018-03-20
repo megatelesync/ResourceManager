@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05D050DA-CD93-49F3-953D-382641D2C1AC}</ProjectGuid>
+    <RootNamespace>ResMan_ver0_0_0_0_quick</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../../LIB/</OutDir>
+    <IntDir />
+    <TargetName>ResMan_ver0_0_0_0_quick_debug</TargetName>
+    <IncludePath>..\..\ResourceManagerInterface_0_0_0_0\ResourceManagerInterface_0_0_0_0\H;..\..\..\Util\h;C:\!DV_MICRO\OTHER_LIBS\boost_1_57_0;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\LIB;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PreprocessorDefinitions>_HAS_AUTO_PTR_ETC; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="H\ResManQuick_Fwd.h" />
+    <ClInclude Include="H\ResManQuick_ManagedGroup.h" />
+    <ClInclude Include="H\ResManQuick_ManagedResource.h" />
+    <ClInclude Include="H\ResManQuick_ResourceManager.h" />
+    <ClInclude Include="H\ResManQuick_ResourceManagerSubsystem.h" />
+    <ClInclude Include="H\ResManQuick_ResourceType.h" />
+    <ClInclude Include="H\ResManQuick_SubresourceRole.h" />
+    <ClInclude Include="H\ResManQuick_SubsystemParams.h" />
+    <ClInclude Include="H\ResManQuick_System.h" />
+    <ClInclude Include="PrivateH\Fwd\ResManQuick_Fwd_ManagedGroup.h" />
+    <ClInclude Include="PrivateH\Fwd\ResManQuick_Fwd_ManagedResource.h" />
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_Impl.h" />
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_LoaderMain.h" />
+    <ClInclude Include="PrivateH\Loader\Fwd\ResManQuick_Fwd_LoadUpdate.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadRequestParams.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoaderCommandRecord.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingLoopCommandQueues.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoaderMain.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingLoop.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadingThread.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_LoadUpdate.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_Loader_PerResourceData.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_Loader_PerResource_PerLoadingLoop.h" />
+    <ClInclude Include="PrivateH\Loader\ResManQuick_impl_utils_LoadingLoopCommandQueues.h" />
+    <ClInclude Include="PrivateH\Log\ResManQuick_impl_Log.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ManagedGroup.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ManagedResource.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ResourceManager.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_ResourceManagerSubsystem.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_access_SubresourceRole.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_GroupResources.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ManagedGroup.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ManagedResource.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceContainer.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceContainer_Types.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceGroupCombiCont.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_GroupCont.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceGroupLink.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceManager.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceManagerSubsystem.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_ResourceRepository.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_RoledGroupResources.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_SubresourceRole.h" />
+    <ClInclude Include="PrivateH\ResManQuick_impl_System.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoaderCommands.cpp" />
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoaderMain.cpp" />
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoadingLoop.cpp" />
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_LoadingThread.cpp" />
+    <ClCompile Include="CPP\Loader\ResManQuick_impl_Loader_PerResourceData.cpp" />
+    <ClCompile Include="CPP\Log\ResManQuick_impl_Log.cpp" />
+    <ClCompile Include="CPP\ResManQuick_GroupCont_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_GroupResources_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ManagedGroup.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ManagedGroup_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ManagedResource.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ManagedResource_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceContainer_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceGroupCombiCont_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceManager.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceManagerSubsystem.cpp" />
+    <ClCompile Include="CPP\ResManQUick_ResourceManagerSubsystem_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceManager_impl.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceRepository.cpp" />
+    <ClCompile Include="CPP\ResManQuick_ResourceType.cpp" />
+    <ClCompile Include="CPP\ResManQuick_SubresourceRole.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

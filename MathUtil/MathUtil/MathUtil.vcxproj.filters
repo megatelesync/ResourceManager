@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{a9941d39-e993-4efd-b77d-88aa833b48c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Spline">
+      <UniqueIdentifier>{978d6413-9baa-480c-9051-020778c924bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Spline">
+      <UniqueIdentifier>{d1767e38-e4e2-4434-8972-2c8e8eae176f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Basic">
+      <UniqueIdentifier>{a62b7a36-aaf6-439d-a1ee-c808aae67f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Basic">
+      <UniqueIdentifier>{1fd1149d-8e23-4f54-bbc1-a02154093463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\CollisionDetection">
+      <UniqueIdentifier>{4ae8a43b-77fb-428b-8800-9675eb97934d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\CollisionDetection">
+      <UniqueIdentifier>{ca61123e-447e-4a55-a77b-e8c786137406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DMath">
+      <UniqueIdentifier>{876ec861-ed78-48f0-8a14-636349feb8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\3DMath">
+      <UniqueIdentifier>{4928cefe-255c-478d-95e6-89f63e823183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core">
+      <UniqueIdentifier>{fddb4027-de5a-490c-a790-e80dded97482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Geometry">
+      <UniqueIdentifier>{9cc85a5c-8da5-424e-a33b-059ded8e1eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\CollisionDetection\Volumes">
+      <UniqueIdentifier>{883f6f93-1189-490d-9679-ad4f836e05c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Core">
+      <UniqueIdentifier>{8d3be1b0-d7d4-4fe9-82f4-59f2b8faf54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MathTypes">
+      <UniqueIdentifier>{971fbbea-9e1e-403e-b187-0310e4b102e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MathTypes\IN_DEVELOPMENT">
+      <UniqueIdentifier>{779f2b9f-1c1c-461f-b458-ab57a96101ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MathTypes\BLAS">
+      <UniqueIdentifier>{e400742f-6265-4351-8723-9b310e871916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MathTypes\Orientation">
+      <UniqueIdentifier>{81a7e311-c3c5-4aec-9f45-6ac9a6eedddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\DEPRECATED">
+      <UniqueIdentifier>{14530fad-1a07-496c-a54c-e871736bd1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Core\BLAS">
+      <UniqueIdentifier>{abba0757-73f8-4165-876a-16c7f732dc64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\3DMath\MatrixCalc">
+      <UniqueIdentifier>{e0805897-18cb-47f8-a692-dc0d7a955f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\MathTypes\Proj">
+      <UniqueIdentifier>{6590d48d-379e-4f20-95a7-90d52783097d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Gen">
+      <UniqueIdentifier>{1569bae2-b867-4c59-9a45-0610182e9b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Gen">
+      <UniqueIdentifier>{375560d4-3d3c-4521-bc19-d610da8a4961}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\h\MathUtil.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_3D.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Matrix.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Plane.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Rotator.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_MatrixTypes.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_PlaneTypes.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_RotatorTypes.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_RotatorToMatrix.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Solve.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_DoubleVector3.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_MatrixBaseTypes.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Harmonics.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Spline\MathUtil_spline_Master.h">
+      <Filter>Заголовочные файлы\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_Algebra.h">
+      <Filter>Заголовочные файлы\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_Master.h">
+      <Filter>Заголовочные файлы\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\MathUtil_CollisionDetection_Master.h">
+      <Filter>Заголовочные файлы\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_IntSize.h">
+      <Filter>Заголовочные файлы\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Frustum.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Master.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_DirectedPosition.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\MathUtil_Core_AnglePair.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\MathUtil_Core_Master.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\MathUtil_Core_LinearAlgebraUtils.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Barycentric.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Tri.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Line.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Master.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABB.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_OBB.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_utils.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_BoundingVolumes.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Capsule.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Sphere.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Slab.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_kDOP.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Cone.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Sphere.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Tri.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_DirectedFrustum.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_FrustumInfo.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Camera.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\MathUtil_DirectXMath.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_OrthoMatrix.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_BoxGeo.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Utils.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_PerspectiveMatrixCache.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_InversiblePerspectiveMatrixCache.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_BiasedRotation.h">
+      <Filter>Заголовочные файлы\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\MathUtil_MathTypes_Master.h">
+      <Filter>Заголовочные файлы\MathTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_BLAS.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_BLAS_DXMATH.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Mat33.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Mat44.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Matrix.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec2.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec3.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec4.h">
+      <Filter>Заголовочные файлы\MathTypes\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Euler.h">
+      <Filter>Заголовочные файлы\MathTypes\Orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Orientation_Master.h">
+      <Filter>Заголовочные файлы\MathTypes\Orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Orientation_MatrixCalc.h">
+      <Filter>Заголовочные файлы\MathTypes\Orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Quaternion.h">
+      <Filter>Заголовочные файлы\MathTypes\Orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\MathUtil_Core_Util.h">
+      <Filter>Заголовочные файлы\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathUtil_Base.h">
+      <Filter>Заголовочные файлы\DEPRECATED</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS.h">
+      <Filter>Заголовочные файлы\Core\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Matrix.h">
+      <Filter>Заголовочные файлы\Core\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Quaternion.h">
+      <Filter>Заголовочные файлы\Core\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Vector.h">
+      <Filter>Заголовочные файлы\Core\BLAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\3DMath\MatrixCalc\MathUtil_3DMath_MatrixCalc.h">
+      <Filter>Заголовочные файлы\3DMath\MatrixCalc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_ProjectionCache.h">
+      <Filter>Заголовочные файлы\MathTypes\Proj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_ProjectionCache_ForwardPerspective.h">
+      <Filter>Заголовочные файлы\MathTypes\Proj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_Util.h">
+      <Filter>Заголовочные файлы\MathTypes\Proj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\Gen\MathUtil_PerlinNoise.h">
+      <Filter>Заголовочные файлы\Gen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABBAndSphere.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABBCube.h">
+      <Filter>Заголовочные файлы\CollisionDetection\Volumes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\MathUtil_Plane.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\MathUtil_WorldViewProj.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\MathUtil_Solve.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Spline\MathUtil_Spline.cpp">
+      <Filter>Файлы исходного кода\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Basic\MathUtil_Basic_Algebra.cpp">
+      <Filter>Файлы исходного кода\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\CollisionDection\MathUtil_ColisionDection.cpp">
+      <Filter>Файлы исходного кода\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\3DMath\MathUtil_3DMath_Frustum.cpp">
+      <Filter>Файлы исходного кода\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Core\MathUtil_Core_AnglePair.cpp">
+      <Filter>Файлы исходного кода\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Basic\MathUtil_Basic_IntSize.cpp">
+      <Filter>Файлы исходного кода\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\MathUtil_MathExternalConst.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Gen\MathUtil_PerlinNoise.cpp">
+      <Filter>Файлы исходного кода\Gen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

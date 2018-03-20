@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\!CORE">
+      <UniqueIdentifier>{b1c4b462-1800-409a-b7a0-f6a2c370af9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\!UTILS">
+      <UniqueIdentifier>{7145a1b0-ff22-410c-a0eb-c3d6f35ff7ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!CORE">
+      <UniqueIdentifier>{67f7cdf7-1195-4cc6-b4c1-9fdbe0266455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!UTILS">
+      <UniqueIdentifier>{d9eb6e50-ffc8-4699-9b90-badc11cd911a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\!DEVICE">
+      <UniqueIdentifier>{d523e704-a385-4b06-88c4-cca083d3ccd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!DEVICE">
+      <UniqueIdentifier>{041c853b-2319-4be5-a19c-97195040cc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\!RENDERING_TESTER">
+      <UniqueIdentifier>{4c55b418-8591-4d5a-8f3e-54be5b2733bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!RENDERING_TESTER">
+      <UniqueIdentifier>{ca2fc42c-685c-45ca-8101-017517c88e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\!RS">
+      <UniqueIdentifier>{3a4f7a99-035d-42c9-a92e-2df1563f25b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\!RS">
+      <UniqueIdentifier>{55bb7573-2f9c-4b0d-b4bd-4201f0ebb4ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\!UTILS\H\utils_com.h">
+      <Filter>Header Files\!UTILS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!DEVICE\H\utils_device_params.h">
+      <Filter>Header Files\!DEVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!DEVICE\H\utils_device_utils.h">
+      <Filter>Header Files\!DEVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!DEVICE\H\utils_device.h">
+      <Filter>Header Files\!DEVICE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!CORE\H\Core_Dx11BaseObject.h">
+      <Filter>Header Files\!CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!CORE\H\Core_Exception.h">
+      <Filter>Header Files\!CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!CORE\H\Core_Exception_Catch.h">
+      <Filter>Header Files\!CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!CORE\H\Core_Master.h">
+      <Filter>Header Files\!CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\!RS\H\RS_RenderState.h">
+      <Filter>Header Files\!RS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\!DEVICE\CPP\utils_device_utils.cpp">
+      <Filter>Source Files\!DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\!DEVICE\CPP\utils_device.cpp">
+      <Filter>Source Files\!DEVICE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\!CORE\CPP\Core_Exception.cpp">
+      <Filter>Source Files\!CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\!RS\CPP\RS_RenderState.cpp">
+      <Filter>Source Files\!RS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

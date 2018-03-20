@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Barycentric.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Camera.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_DirectedFrustum.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_DirectedPosition.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Frustum.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_FrustumInfo.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_InversiblePerspectiveMatrixCache.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Master.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_OrthoMatrix.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_BiasedRotation.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_PerspectiveMatrixCache.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Tri.h" />
+    <ClInclude Include="..\h\3DMath\MathUtil_3DMath_Utils.h" />
+    <ClInclude Include="..\h\3DMath\MatrixCalc\MathUtil_3DMath_MatrixCalc.h" />
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_Algebra.h" />
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_IntSize.h" />
+    <ClInclude Include="..\h\Basic\MathUtil_Basic_Master.h" />
+    <ClInclude Include="..\h\CollisionDetection\MathUtil_CollisionDetection_Master.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_BoundingVolumes.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABB.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABBAndSphere.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_AABBCube.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Capsule.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_kDOP.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_OBB.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Slab.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_Sphere.h" />
+    <ClInclude Include="..\h\CollisionDetection\Volumes\MathUtil_CollisionDetection_volume_utils.h" />
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS.h" />
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Matrix.h" />
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Quaternion.h" />
+    <ClInclude Include="..\h\Core\BLAS\MathUtil_Core_BLAS_Vector.h" />
+    <ClInclude Include="..\h\Core\MathUtil_Core_AnglePair.h" />
+    <ClInclude Include="..\h\Core\MathUtil_Core_LinearAlgebraUtils.h" />
+    <ClInclude Include="..\h\Core\MathUtil_Core_Master.h" />
+    <ClInclude Include="..\h\Core\MathUtil_Core_Util.h" />
+    <ClInclude Include="..\h\Core\MathUtil_DirectXMath.h" />
+    <ClInclude Include="..\h\Gen\MathUtil_PerlinNoise.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_BoxGeo.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Cone.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Line.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Master.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Sphere.h" />
+    <ClInclude Include="..\h\Geometry\MathUtil_Geometry_Tri.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_BLAS.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_BLAS_DXMATH.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Mat33.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Mat44.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Matrix.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec2.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec3.h" />
+    <ClInclude Include="..\h\MathTypes\BLAS\MathUtil_MathTypes_Vec4.h" />
+    <ClInclude Include="..\h\MathTypes\MathUtil_MathTypes_Master.h" />
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Euler.h" />
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Orientation_Master.h" />
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Orientation_MatrixCalc.h" />
+    <ClInclude Include="..\h\MathTypes\Orientation\MathUtil_MathTypes_Quaternion.h" />
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_ProjectionCache.h" />
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_ProjectionCache_ForwardPerspective.h" />
+    <ClInclude Include="..\h\MathTypes\Proj\MathUtil_MathTypes_Util.h" />
+    <ClInclude Include="..\h\MathUtil.h" />
+    <ClInclude Include="..\h\MathUtil_3D.h" />
+    <ClInclude Include="..\h\MathUtil_Base.h" />
+    <ClInclude Include="..\h\MathUtil_DoubleVector3.h" />
+    <ClInclude Include="..\h\MathUtil_Harmonics.h" />
+    <ClInclude Include="..\h\MathUtil_Matrix.h" />
+    <ClInclude Include="..\h\MathUtil_MatrixBaseTypes.h" />
+    <ClInclude Include="..\h\MathUtil_MatrixTypes.h" />
+    <ClInclude Include="..\h\MathUtil_Plane.h" />
+    <ClInclude Include="..\h\MathUtil_PlaneTypes.h" />
+    <ClInclude Include="..\h\MathUtil_Rotator.h" />
+    <ClInclude Include="..\h\MathUtil_RotatorToMatrix.h" />
+    <ClInclude Include="..\h\MathUtil_RotatorTypes.h" />
+    <ClInclude Include="..\h\MathUtil_Solve.h" />
+    <ClInclude Include="..\h\Spline\MathUtil_spline_Master.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\3DMath\MathUtil_3DMath_Frustum.cpp" />
+    <ClCompile Include="..\cpp\Basic\MathUtil_Basic_Algebra.cpp" />
+    <ClCompile Include="..\cpp\Basic\MathUtil_Basic_IntSize.cpp" />
+    <ClCompile Include="..\cpp\CollisionDection\MathUtil_ColisionDection.cpp" />
+    <ClCompile Include="..\cpp\Core\MathUtil_Core_AnglePair.cpp" />
+    <ClCompile Include="..\cpp\Gen\MathUtil_PerlinNoise.cpp" />
+    <ClCompile Include="..\cpp\MathUtil_MathExternalConst.cpp" />
+    <ClCompile Include="..\cpp\MathUtil_Plane.cpp" />
+    <ClCompile Include="..\cpp\MathUtil_Solve.cpp" />
+    <ClCompile Include="..\cpp\MathUtil_WorldViewProj.cpp" />
+    <ClCompile Include="..\cpp\Spline\MathUtil_Spline.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{959172FB-6112-4D3C-86A0-2D638AA3C83C}</ProjectGuid>
+    <RootNamespace>MathUtil</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>C:\!DV_MICRO\LIB\</OutDir>
+    <IncludePath>C:\!DV_MICRO\SUBSYSTEMS_OLD\Util\h;C:\!DV_MICRO\OTHER_LIBS\boost_1_57_0;C:\SDK11\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SDK11\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>MathUtil_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\LIB\</OutDir>
+    <IntDir>
+    </IntDir>
+    <TargetName>MathUtil_debug</TargetName>
+    <IncludePath>..\..\Util\h;C:\!DV_MICRO\OTHER_LIBS\boost_1_57_0;C:\SDK11\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SDK11\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_HAS_AUTO_PTR_ETC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <PreprocessorDefinitions>_HAS_AUTO_PTR_ETC;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
